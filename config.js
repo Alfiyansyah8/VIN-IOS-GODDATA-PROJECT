@@ -55,4 +55,25 @@ const APP_CONFIG = {
 // Export config
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = APP_CONFIG;
+}    threeDTouch: true
+  },
+
+  // Supabase Configuration
+  supabase: {
+    url: "https://eemjrotrcftjdazyheoc.supabase.co",
+    key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVlbWpyb3RyY2Z0amRhenloZW9jIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUyMjE1NzAsImV4cCI6MjA5MDc5NzU3MH0.Uz0uOtpSYVEU88ATO8Wg_HAuGHWdWKuTObBf9D1bQwc",
+    tableName: "licenses_ios" // Meisahkan dari tabel android
+  },
+
+  // PWA Settings
+  pwaSettings: {
+    cacheName: "goddatax-v1",
+    offlineSupport: true,
+    installPrompt: true
+  }
+};
+
+// Export config
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = APP_CONFIG;
 }
